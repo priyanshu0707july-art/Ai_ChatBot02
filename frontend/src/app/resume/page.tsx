@@ -16,7 +16,8 @@ export default function ResumePage() {
     formData.append("resume", file);
 
     try {
-      const response = await fetch("http://localhost:8000/api/v1/resume/analyze", {
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://ai-chatbot02.onrender.com";
+      const response = await fetch(`${API_URL}/api/v1/resume/analyze`, {
         method: "POST",
         body: formData,
       });

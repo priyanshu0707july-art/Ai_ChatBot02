@@ -15,7 +15,8 @@ export default function RoadmapsPage() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://localhost:8000/api/v1/roadmap/", {
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://ai-chatbot02.onrender.com";
+      const response = await fetch(`${API_URL}/api/v1/roadmap/`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ 

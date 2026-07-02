@@ -17,8 +17,8 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      // Adjust this URL if your backend runs on a different port
-      const response = await fetch("http://localhost:8000/api/v1/chat/", {
+      const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://ai-chatbot02.onrender.com";
+      const response = await fetch(`${API_URL}/api/v1/chat/`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
