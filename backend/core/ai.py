@@ -11,6 +11,10 @@ def get_career_counselor_response(user_message: str, chat_history: list = None):
     """
     Calls the OpenAI LLM with a career counselor prompt.
     """
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key or api_key == "":
+        return f"Hello! This is a mock response from SkillBridge AI. You said: '{user_message}'. \n\nPlease configure the `OPENAI_API_KEY` in the backend environment to enable real AI responses."
+
     if chat_history is None:
         chat_history = []
         
@@ -24,5 +28,8 @@ def get_career_counselor_response(user_message: str, chat_history: list = None):
         
     messages.append(HumanMessage(content=user_message))
     
-    response = chat_model.invoke(messages)
-    return response.content
+    try:
+        response = chat_model.invoke(messages)
+        return response.content
+    except Exception as e:
+        return f"Sorry, an error occurred with the AI service: {str(e)}"

@@ -23,7 +23,12 @@ export function Sidebar() {
         </Link>
         <Link href="/roadmaps">
           <Button variant="ghost" className="w-full justify-start text-left text-white hover:bg-gray-800">
-            🗺️ Saved Roadmaps
+            🗺️ AI Roadmaps
+          </Button>
+        </Link>
+        <Link href="/resume">
+          <Button variant="ghost" className="w-full justify-start text-left text-white hover:bg-gray-800">
+            📄 Resume Analyzer
           </Button>
         </Link>
         <Link href="/opportunities">
