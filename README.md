@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://via.placeholder.com/800x200/0f172a/ffffff?text=SkillBridge+AI+ChatBot" alt="SkillBridge AI Banner" />
   
-  <h1>🚀 SkillBridge AI ChatBot</h1>
+  <h1> SkillBridge AI ChatBot</h1>
   <p><strong>Your Personal AI Career Counselor & Resume Analyzer</strong></p>
   
   <a href="https://ai-chat-bot02.vercel.app"><b>Live Demo</b></a> •
@@ -12,15 +12,13 @@
 
 ---
 
-## 📖 Project Description
 
-SkillBridge AI is a full-stack, AI-powered career counseling platform designed to guide students and professionals through their career journeys. By leveraging modern web technologies and advanced Natural Language Processing (OpenAI), the platform acts as a virtual mentor—providing actionable career guidance, deep resume analysis, skill recommendations, and personalized learning roadmaps.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Navigating the modern job market is overwhelming. Students and early-career professionals often struggle to identify the exact skills they need, understand how their resume performs against ATS (Applicant Tracking Systems), and figure out the concrete steps required to land their dream job. Traditional career counseling is often expensive or inaccessible. 
 
-## 💡 Project Objectives
+##  Project Objectives
 
 - **Democratize Career Guidance:** Provide free, AI-driven mentorship accessible to anyone.
 - **Actionable Feedback:** Analyze resumes instantly and provide actionable steps to improve ATS compatibility.
@@ -29,7 +27,7 @@ Navigating the modern job market is overwhelming. Students and early-career prof
 
 ---
 
-## ✨ Features
+##  Features
 
 ✅ **Resume Analyzer (Working)** - Upload your PDF resume for an instant ATS compatibility score, strength/weakness breakdown, and improvement suggestions.
 ✅ **Responsive UI (Working)** - Beautiful, mobile-first design built with Tailwind CSS and ShadCN UI.
@@ -42,7 +40,7 @@ Navigating the modern job market is overwhelming. Students and early-career prof
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### AI Chat Interface
 *(Temporarily disabled in production, but fully architected)*
@@ -56,7 +54,7 @@ Navigating the modern job market is overwhelming. Students and early-career prof
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 **Frontend:**
 - Next.js 15 & React 19
@@ -77,7 +75,7 @@ Navigating the modern job market is overwhelming. Students and early-career prof
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The application follows a decoupled client-server architecture:
 1. **Client Layer (Next.js):** Handles user interactions, file uploads, and state management. Communicates with the backend via RESTful APIs.
@@ -87,7 +85,7 @@ The application follows a decoupled client-server architecture:
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```text
 Ai_ChatBot02/
@@ -107,7 +105,7 @@ Ai_ChatBot02/
 
 ---
 
-## 🚀 Installation Steps
+##  Installation Steps
 
 1. **Clone the repository:**
    ```bash
@@ -131,7 +129,7 @@ Ai_ChatBot02/
    npm run dev
    ```
 
-## 🔐 Environment Variables
+##  Environment Variables
 
 Create a `.env` file in the **backend** directory:
 ```env
@@ -146,7 +144,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 🌍 Deployment Information
+##  Deployment Information
 
 - **Frontend:** Deployed on [Vercel](https://vercel.com) for edge-optimized static delivery.
 - **Backend:** Deployed on [Render](https://render.com) as a web service.
@@ -154,7 +152,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 🧗 Challenges Faced
+##  Challenges Faced
 
 - **API Cost Constraints & LLM Rate Limits:** Balancing a feature-rich AI experience with the realities of OpenAI's token costs and rate limits required implementing efficient prompt engineering and mock-fallbacks for production.
 - **Resume Parsing Challenges:** Extracting clean, readable text from complex, multi-column PDF resumes required robust backend error handling.
@@ -163,7 +161,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - **Enable Live AI Chat:** Re-activate the OpenAI integration for production once funding is secured.
 - **RAG Implementation:** Add Retrieval-Augmented Generation to allow the AI to search a database of real-time job market data.
@@ -173,7 +171,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 🧠 Skills Demonstrated
+##  Skills Demonstrated
 
 - **Full Stack Development** (Seamlessly connecting React to Python)
 - **AI Integration & Prompt Engineering** (LangChain, OpenAI)
@@ -182,13 +180,5 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 - **System Design & Architecture**
 - **Debugging & Deployment** (Vercel, Render, Git)
 
----
-
-## 💼 Why This Project Matters (For Recruiters)
-
-If you are reviewing this repository, this project demonstrates my ability to take an idea from **zero to production**. It highlights:
-- **Product Thinking:** Identifying a real-world problem (career guidance accessibility) and building a targeted solution.
-- **Full-Stack Engineering:** I am comfortable working across the entire stack, from pixel-perfect frontend components to complex backend API logic.
-- **AI Integration Capability:** I understand how to securely and effectively integrate modern LLMs into traditional software architectures.
 - **Problem-Solving & Scalability:** Overcoming strict deployment environments, CORS issues, and API limits proves my ability to debug complex systemic issues and design scalable solutions.
 - **Modern Web Development:** Utilizing the absolute latest tools (Next.js 15, FastAPI, Tailwind CSS, ShadCN).
