@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="https://via.placeholder.com/800x200/0f172a/ffffff?text=SkillBridge+AI+ChatBot" alt="SkillBridge AI Banner" />
+
   
   <h1> SkillBridge AI ChatBot</h1>
   <p><strong>Your Personal AI Career Counselor & Resume Analyzer</strong></p>
@@ -44,13 +43,12 @@ Navigating the modern job market is overwhelming. Students and early-career prof
 
 ### AI Chat Interface
 *(Temporarily disabled in production, but fully architected)*
-![AI Chat Interface](https://via.placeholder.com/800x400/f3f4f6/6b7280?text=Screenshot:+AI+Chat+Interface)
+![AI Chat Interface] <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/de7a612f-de32-4b08-901b-371961fa4402" />
+
 
 ### Resume Analyzer (Working)
-![Resume Analyzer](https://via.placeholder.com/800x400/f3f4f6/6b7280?text=Screenshot:+Resume+Analyzer+Results)
+![Resume Analyzer] <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/47b6de65-c775-43d7-b4c5-5d778943fbaa" />
 
-### User Dashboard
-![Dashboard](https://via.placeholder.com/800x400/f3f4f6/6b7280?text=Screenshot:+Analytics+Dashboard)
 
 ---
 
