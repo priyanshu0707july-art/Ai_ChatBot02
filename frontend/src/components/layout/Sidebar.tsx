@@ -16,6 +16,11 @@ export function Sidebar() {
             💬 New Chat
           </Button>
         </Link>
+        <Link href="/dashboard">
+          <Button variant="ghost" className="w-full justify-start text-left text-white hover:bg-gray-800">
+            📈 Analytics
+          </Button>
+        </Link>
         <Link href="/history">
           <Button variant="ghost" className="w-full justify-start text-left text-white hover:bg-gray-800">
             🕒 Chat History
