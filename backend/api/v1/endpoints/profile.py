@@ -15,7 +15,7 @@ class UserProfileResponse(BaseModel):
     level: int
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 @router.get("/me", response_model=UserProfileResponse)
 def get_user_profile(
