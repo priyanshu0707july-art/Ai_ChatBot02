@@ -17,7 +17,7 @@ class RoadmapResponse(BaseModel):
 @router.post("/", response_model=RoadmapResponse)
 def generate_roadmap(
     request: RoadmapRequest,
-    current_user: User = Depends(deps.get_current_user),
+    # current_user: User = Depends(deps.get_current_user), # Temporarily disabled
 ) -> Any:
     """
     Generate a career/learning roadmap.

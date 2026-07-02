@@ -8,7 +8,7 @@ router = APIRouter()
 @router.post("/analyze")
 def analyze_resume(
     resume: UploadFile = File(...),
-    current_user: User = Depends(deps.get_current_user),
+    # current_user: User = Depends(deps.get_current_user), # Temporarily disabled
 ) -> Any:
     """
     Upload a PDF resume and return analysis.
